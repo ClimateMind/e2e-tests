@@ -25,3 +25,11 @@ workflows:
   commit:
     jobs:
       - e2e-tests
+  periodical:
+    triggers:
+      - schedule:
+          cron: "0 10 * * 1-5"
+          filters:
+            branches:
+              only:
+                - main
