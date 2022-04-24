@@ -34,4 +34,4 @@ workflows:
               only:
                 - main
     jobs:
-      - e2e_tests_job
+      - e2e-tests
