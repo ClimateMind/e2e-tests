@@ -10,7 +10,7 @@ const homePage = new HomePage();
 
 describe('Climate Mind app Navigation', () => {
     it('should navigate to Climate Mind app',() => {
-        navigationToURL.navigateToURL();
+        navigationToURL.navigateToURL('/');
         cookies.acceptCookies();
         homePage.homePage();
         cy.title().should('eq', expectedData.homePageTabTitle);
