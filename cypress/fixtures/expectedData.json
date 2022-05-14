@@ -1,4 +1,7 @@
 {
     "homePageTabTitle": "Climate Mind App",
-    "homePageURL": "https://app-frontend-test-001.azurewebsites.net/"
+    "homePageURL": "https://app-frontend-test-001.azurewebsites.net/",
+    "cookiePopUpAlertTitle": "Climate Mind Uses Cookies",
+    "PrivacyPolicyPageTitle": "Privacy Policy",
+    "homePageTitle": "Personalize your understanding of climate change."
 }
