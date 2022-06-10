@@ -1,3 +1,4 @@
 {
-    "baseUrl": "https://app-frontend-test-001.azurewebsites.net"
+    "baseUrl": "https://www.saucedemo.com",
+    "chromeWebSecurity": false
 }
