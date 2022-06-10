@@ -9,7 +9,7 @@ export class PrivacyPolicyPage{
         cy.get(this.goBackButton).click();
         return new Cookies();
     }
-    
+
     clickBack(){
         cy.get(this.backButton).click();
         return new Cookies();
