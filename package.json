@@ -1,25 +1,24 @@
 {
-  "name": "demotestswithcypress-saucedemo",
+  "name": "e2e-tests",
   "version": "1.0.0",
-  "description": "Test automation with Cypress, AUT is www.saucedemo.com",
+  "description": "CM end to end tests",
   "main": "index.js",
   "scripts": {
     "cy:run": "cypress run --env allure=true",
     "allure:report": "allure generate allure-results --clean -o allure-report",
     "test": "npm run cy:run || npm run posttest",
-    "posttest": "npm run allure:report",
-    "openReport": "allure open ./allure-report"
+    "posttest": "npm run allure:report"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SabineU/DemoTestsWithCypress-SauceDemo.git"
+    "url": "git+https://github.com/ClimateMind/e2e-tests.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SabineU/DemoTestsWithCypress-SauceDemo/issues"
+    "url": "https://github.com/ClimateMind/e2e-tests/issues"
   },
-  "homepage": "https://github.com/SabineU/DemoTestsWithCypress-SauceDemo#readme",
+  "homepage": "https://github.com/ClimateMind/e2e-tests#readme",
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.26.5",
     "allure-commandline": "^2.17.2",
