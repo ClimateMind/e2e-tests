@@ -16,8 +16,8 @@ describe('Tests for Privacy Policy Page', () => {
 
     it('should allow user to use Back button',() => {
         cookies.readCookiesPrivacyPolicy();
-        privacyPolicyPage.clickBack();
-        cy.get(cookies.cookiePopup,{ timeout: 10000 }).invoke('text').then((text) => {
+        privacyPolicyPage.clickGoBack();
+        cy.get(cookies.cookiePopup).invoke('text').then((text) => {
             expect(text).equal(expectedData.cookiePopUpAlertTitle);
         });
     });
