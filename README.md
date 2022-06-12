@@ -2,7 +2,7 @@
 
 ## Setup
 1. Clone this `e2e-tests` repository,
-2. Open terminal or command prompt and cd into `e2e-tests`,
+2. Open this `e2e-tests` in the terminal or command prompt,
 3. Install the dependancies by running the command `npm install`.
 
 ## How to run
@@ -16,5 +16,5 @@
 ## Covered Test Conditions
 |ID|Description|
 | :---: | :--- | :--- |
-|1|Navigate to Climate Mind app|
-|2|Open and accept cookies|
+|1|Navigate to Climate Mind app|<br>
+|2|Open and accept cookies|<br>
