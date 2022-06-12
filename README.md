@@ -18,3 +18,4 @@
 | :---: | :--- |
 |1|Navigate to Climate Mind app|<br>
 |2|Open and accept cookies|<br>
+|3|Taking quiz|<br>

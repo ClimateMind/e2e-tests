@@ -3,5 +3,11 @@
     "homePageURL": "https://app-frontend-test-001.azurewebsites.net/",
     "cookiePopUpAlertTitle": "Climate Mind Uses Cookies",
     "PrivacyPolicyPageTitle": "Privacy Policy",
-    "homePageTitle": "Personalize your understanding of climate change."
+    "homePageTitle": "Personalize your understanding of climate change.",
+    "startPageURL" : "https://app-frontend-test-001.azurewebsites.net/start",
+    "questionnairePageURL": "https://app-frontend-test-001.azurewebsites.net/questionnaire",
+    "submitPageTitle": "Woah! You are doing great!",
+    "submitPageURL": "https://app-frontend-test-001.azurewebsites.net/submit",
+    "submitSetTwoPageTitle": "Woohoo! Good Job!",
+    "submitSetTwoPageURL": "https://app-frontend-test-001.azurewebsites.net/submit-set-two"
 }
