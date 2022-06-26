@@ -11,7 +11,7 @@ const cookies = new Cookies();
 const privacyPolicyPage = new PrivacyPolicyPage();
 const homePage = new HomePage();
 
-describe('Tests for Cookies Alert Popup', () => {
+describe('Cookies tests', () => {
     beforeEach(() => {
         navigationToURL.navigateToURL('/');
     });

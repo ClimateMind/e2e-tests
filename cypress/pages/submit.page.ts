@@ -1,3 +1,4 @@
+import { PersonalValuesPage } from "./personalValues.page";
 import { QuestionnairePage } from "./questionnaire.page";
 
 export class SubmitPage{
@@ -7,6 +8,7 @@ export class SubmitPage{
    
     findMyClimatePersonality(){
         cy.get(this.findOutMyClimatePersonalityButton).click();
+        return new PersonalValuesPage();
     }
     finishTheQuiz(){
         cy.get(this.finishTheQuizButton).click();

@@ -8,7 +8,7 @@ const navigationToURL = new NavigationToURL();
 const cookies = new Cookies();
 const homePage = new HomePage();
 
-describe('Climate Mind app Navigation', () => {
+describe('Climate Mind app Home Page Navigation Tests', () => {
     it('should navigate to Climate Mind app',() => {
         navigationToURL.navigateToURL('/');
         cookies.acceptCookies();
