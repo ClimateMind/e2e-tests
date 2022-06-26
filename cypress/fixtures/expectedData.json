@@ -9,5 +9,8 @@
     "submitPageTitle": "Woah! You are doing great!",
     "submitPageURL": "https://app-frontend-test-001.azurewebsites.net/submit",
     "submitSetTwoPageTitle": "Woohoo! Good Job!",
-    "submitSetTwoPageURL": "https://app-frontend-test-001.azurewebsites.net/submit-set-two"
+    "submitSetTwoPageURL": "https://app-frontend-test-001.azurewebsites.net/submit-set-two",
+    "alertOnPersonalValuePage": "Quiz completed!",
+    "invalidZipCodeMessage": "Invalid Zip Code",
+    "signUpPageHeader": "Create a Climate Mind account"
 }

@@ -9,7 +9,7 @@ const navigationToURL = new NavigationToURL();
 const cookies = new Cookies();
 const privacyPolicyPage = new PrivacyPolicyPage();
 
-describe('Tests for Privacy Policy Page', () => {
+describe('Privacy Policy tests', () => {
     beforeEach(() => {
         navigationToURL.navigateToURL('/');
     });

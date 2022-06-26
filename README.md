@@ -16,6 +16,10 @@
 ## Covered Test Conditions
 |ID|Description|
 | :---: | :--- |
-|1|Navigate to Climate Mind app|<br>
-|2|Open and accept cookies|<br>
-|3|Taking quiz|<br>
+|1|Cookies tests|<br>
+|2|Privacy Policy Tests|<br>
+|3|Climate Mind app Home Page Navigation Tests|<br>
+|4|Questionnaire Tests (Taking quiz tests) |<br>
+|5|Personal Values tests|<br>
+|6|Set Location Tests|<br>
+
