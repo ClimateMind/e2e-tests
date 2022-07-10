@@ -12,5 +12,11 @@
     "submitSetTwoPageURL": "https://app-frontend-test-001.azurewebsites.net/submit-set-two",
     "alertOnPersonalValuePage": "Quiz completed!",
     "invalidZipCodeMessage": "Invalid Zip Code",
-    "signUpPageHeader": "Create a Climate Mind account"
+    "signUpPageHeader": "Create a Climate Mind account",
+    "alertMessageOnClimateFeedPage": "You’ve joined Climate Mind!",
+    "confirmPasswordHelperText": "Passwords must match!",
+    "emailHelperText": "Invalid email address",
+    "passwordHelperText": "Invalid Password. Password must be at least 8 characters and containt one number or one special character",
+    "climateFeedPageURL": "https://app-frontend-test-001.azurewebsites.net/climate-feed",
+    "climateFeedPageTitle": "Your Personal Climate Feed"
 }

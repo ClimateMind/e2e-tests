@@ -50,13 +50,14 @@ describe('Set Location Tests', () => {
 
     it('should allow user to submit correct zip code',() => {
         personalValuesPage.diveIntoClimateMind();
-        setLocationPage.enterZipCode(faker.datatype.number());
+        setLocationPage.enterZipCode(faker.random.numeric(5));
         setLocationPage.submitZipCode();
         cy.get(signUpPage.signUpPageHeaderLocator,{ timeout: 10000 }).invoke('text').then((text) => {
             expect(text).equal(expectedData.signUpPageHeader);
         });
     });
-    it('should allow user to submit correct zip code',() => {
+    
+    it('should handle submitting invalid zip code',() => {
         personalValuesPage.diveIntoClimateMind();
         setLocationPage.enterZipCode((faker.random.alpha(5)).toUpperCase());
         cy.get(setLocationPage.invalidZipCodeMessageLocator,{ timeout: 10000 }).invoke('text').then((text) => {
